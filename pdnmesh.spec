@@ -12,7 +12,7 @@ URL:		http://pdnmesh.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gtkglext-devel >= 1.0.0
-BuildRequires:  lapack-devel
+BuildRequires:	lapack-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
