@@ -37,6 +37,7 @@ oraz ich konwersja do formatu pozwalaj±cego na definicjê problemu.
 %build
 %{__aclocal}
 %{__autoconf}
+%{__automake}
 %configure
 %{__make}
 
