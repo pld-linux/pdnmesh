@@ -18,7 +18,7 @@ used to solve Electrostatic, Magneto-static, Heatflow and Fluid
 dynamic problems. It can also do post processing to visualise the
 solution. It is possible to import CAD DXF files (ASCII) into pdnmesh
 and convert them to a format allowed problem definition.
-                                                                                                         
+
 %description -l pl
 pdnmesh jest dwuwymiarowym programem s³u¿±cym do analizy metod±
 elementów skoñczonych. Mo¿e byæ u¿ywany do rozwi±zywania problemów
