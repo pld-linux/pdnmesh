@@ -11,8 +11,10 @@ Patch0:		%{name}-am18.patch
 URL:		http://pdnmesh.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	gcc-g77
 BuildRequires:	gtkglext-devel >= 1.0.0
 BuildRequires:	lapack-devel
+BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_noautoreqdep	libGL.so.1 libGLU.so.1
