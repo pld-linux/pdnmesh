@@ -9,6 +9,8 @@ Source0:	http://www.ibiblio.org/pub/linux/science/visualization/%{name}-%{versio
 # Source0-md5:	a310de2207c45ac84e2c54357613f258
 Patch0:		%{name}-am18.patch
 URL:		http://pdnmesh.sourceforge.net/
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRequires:	gtkglext-devel >= 1.0.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
