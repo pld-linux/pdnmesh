@@ -1,0 +1,18 @@
+diff -urN pdnmesh-0.2.1/pixmaps/Makefile.am pdnmesh-0.2.1.new/pixmaps/Makefile.am
+--- pdnmesh-0.2.1/pixmaps/Makefile.am	2005-03-14 03:31:55.000000000 +0100
++++ pdnmesh-0.2.1.new/pixmaps/Makefile.am	2005-04-18 21:59:20.866151032 +0200
+@@ -1,4 +1,4 @@
+-pixmapsdir=$(pkgdatadir)/pixmaps
++pixmapsdir=$(datadir)/pixmaps/pdnmesh
+ pixmaps_DATA= open.xpm \
+               save.xpm \
+               zoom_all.xpm zoom_window.xpm zoom_back.xpm \
+diff -urN pdnmesh-0.2.1/src/Makefile.am pdnmesh-0.2.1.new/src/Makefile.am
+--- pdnmesh-0.2.1/src/Makefile.am	2005-03-11 08:33:40.000000000 +0100
++++ pdnmesh-0.2.1.new/src/Makefile.am	2005-04-18 21:59:51.558485088 +0200
+@@ -7,4 +7,4 @@
+ INCLUDES= -I${includedir}
+ pdnmesh_LDADD=$(DEPS_LIBS)
+ AM_CPPFLAGS=$(DEPS_CFLAGS) \
+-            -DPIXMAPS_DIR=\""$(pkgdatadir)/pixmaps"\"
++            -DPIXMAPS_DIR=\""$(datadir)/pixmaps/pdnmesh"\"
