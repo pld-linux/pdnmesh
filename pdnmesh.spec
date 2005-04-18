@@ -1,13 +1,14 @@
 Summary:	pdnmesh - A 2D finite element program
 Summary(pl):	pdnmesh - dwuwymiarowy program do analizy metod± elementów skoñczonych
 Name:		pdnmesh
-Version:	0.2.0
+Version:	0.2.1
 Release:	0.1
 License:	GPL v2
 Group:		Applications/Engineering
 Source0:	http://dl.sourceforge.net/pdnmesh/%{name}-%{version}.tar.gz
-# Source0-md5:	1343da0fa814ee3e5229eb925cb05c21
+# Source0-md5:	0fce52c99db5e894530f0e5ddde497d5
 Patch0:		%{name}-am18.patch
+Patch1:		%name-DESTDIR.patch
 URL:		http://pdnmesh.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -37,6 +38,7 @@ oraz ich konwersja do formatu pozwalaj±cego na definicjê problemu.
 %prep
 %setup -q
 %patch0 -p1
+%patch1 -p1
 
 %build
 %{__aclocal}
@@ -59,3 +61,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS ChangeLog NEWS README
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man?/*
+%{_pixmapsdir}/*
