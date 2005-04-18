@@ -8,7 +8,7 @@ Group:		Applications/Engineering
 Source0:	http://dl.sourceforge.net/pdnmesh/%{name}-%{version}.tar.gz
 # Source0-md5:	0fce52c99db5e894530f0e5ddde497d5
 Patch0:		%{name}-am18.patch
-Patch1:		%name-DESTDIR.patch
+Patch1:		%{name}-DESTDIR.patch
 URL:		http://pdnmesh.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
