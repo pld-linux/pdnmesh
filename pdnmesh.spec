@@ -1,5 +1,5 @@
 Summary:	pdnmesh - A 2D finite element program
-Summary(pl):	pdnmesh - dwuwymiarowy program do analizy metod± elementów skoñczonych
+Summary(pl.UTF-8):   pdnmesh - dwuwymiarowy program do analizy metodÄ… elementÃ³w skoÅ„czonych
 Name:		pdnmesh
 Version:	0.2.2
 Release:	0.1
@@ -27,13 +27,13 @@ dynamic problems. It can also do post processing to visualise the
 solution. It is possible to import CAD DXF files (ASCII) into pdnmesh
 and convert them to a format allowed problem definition.
 
-%description -l pl
-pdnmesh jest dwuwymiarowym programem s³u¿±cym do analizy metod±
-elementów skoñczonych. Mo¿e byæ u¿ywany do rozwi±zywania problemów
-zwi±zanych z elektrostatyk±, magnetostatyk±, przep³ywem ciep³a oraz
-dynamik± p³ynów. Istnieje mo¿liwo¶æ wizualizacji wyników za pomoc±
-postprocesora. Mo¿liwy jest równie¿ import plików CAD DXF (ASCII),
-oraz ich konwersja do formatu pozwalaj±cego na definicjê problemu.
+%description -l pl.UTF-8
+pdnmesh jest dwuwymiarowym programem sÅ‚uÅ¼Ä…cym do analizy metodÄ…
+elementÃ³w skoÅ„czonych. MoÅ¼e byÄ‡ uÅ¼ywany do rozwiÄ…zywania problemÃ³w
+zwiÄ…zanych z elektrostatykÄ…, magnetostatykÄ…, przepÅ‚ywem ciepÅ‚a oraz
+dynamikÄ… pÅ‚ynÃ³w. Istnieje moÅ¼liwoÅ›Ä‡ wizualizacji wynikÃ³w za pomocÄ…
+postprocesora. MoÅ¼liwy jest rÃ³wnieÅ¼ import plikÃ³w CAD DXF (ASCII),
+oraz ich konwersja do formatu pozwalajÄ…cego na definicjÄ™ problemu.
 
 %prep
 %setup -q
