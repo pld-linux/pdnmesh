@@ -1,5 +1,5 @@
 Summary:	pdnmesh - A 2D finite element program
-Summary(pl.UTF-8):   pdnmesh - dwuwymiarowy program do analizy metodą elementów skończonych
+Summary(pl.UTF-8):	pdnmesh - dwuwymiarowy program do analizy metodą elementów skończonych
 Name:		pdnmesh
 Version:	0.2.2
 Release:	0.1
